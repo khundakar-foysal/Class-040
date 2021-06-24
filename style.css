@@ -1,0 +1,391 @@
+body,h1,h2,h3,h4,h5,h6,span,p,a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.for-bg{
+    background: #f7f9ff;
+}
+/* .for-width{
+    width: 900px;
+    margin: 0 auto;
+} */
+/* menubar style */
+.menu-icon .navbar-brand {
+	font-size: 23px;
+	font-weight: 500;
+}
+.navbar-brand span {
+	background: #6278df;
+	color: #fff;
+	width: 41px;
+	display: inline-block;
+	height: 39px;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 39px;
+	font-size: 25px;
+}
+/* slider-section */
+.slider-section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: -1;
+}
+.slider-caption h4 {
+	font-size: 27px;
+	font-weight: 400;
+	margin-bottom: 29px;
+}
+.slider-caption h1 {
+	font-size: 45px;
+	font-weight: bold;
+}
+.slider-caption .btn:hover{
+    background: #fff;
+}
+.menu ul li:hover > a{
+    color: #6278df;
+}
+.about-section{
+    background: #f7f9ff;
+    padding: 50px 0;
+}
+.about-content{
+    margin: 120px 0;
+}
+.about-content p{
+    font-size: 20px;
+}
+.about-img img{
+    max-width: 100%;
+}
+.learn-more-heading p {
+	font-size: 24px;
+	margin-top: 23px;
+}
+
+.feature-item {
+	height: 300px;
+	box-shadow: 0 0 19px rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+.left-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img img {
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -81px;
+    height: 100%;
+}
+.right-content {
+	width: 60%;
+	padding: 19px;
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(98, 120, 223, .5);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.portfolio-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+.pricing-item{
+	box-shadow: 0px 0 19px rgba(98, 120, 223,.2);
+}
+.pricing-item ul {
+	list-style: none;
+	padding-left: 0;
+}
+.pricing-item ul li {
+	font-size: 22px;
+	margin-bottom: 31px;
+}
+.pricing-item ul li span {
+	font-size: 28px;
+	color: #6278df;
+	width: 38px;
+	display: inline-block;
+}
+.pricing-button a {
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: bold;
+	color: #6278df;
+	background: white;
+	box-shadow: 0px 0 19px rgba(98, 120, 223,.2);
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 35px;
+	display: inline-block;
+    transition: .5s;
+}
+.megarment {
+	margin-top: -25px !important;
+}
+.pricing-button a:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.pricing-item:hover .pricing-button a{
+    background: #6278df;
+    color: #fff;
+}
+.testimonial-content span {
+	font-size: 70px;
+	color: #ddd;
+}
+.testimonial-item img {
+	width: 86px;
+}
+.testimonial-item {
+    width: 228px;
+    margin: auto;
+}
+.testimonial-details {
+	position: relative;
+	top: 9px;
+}
+.team-section {
+	margin-top: 85px;
+}
+.team-section .card{
+    box-shadow: 0 0 17px rgba(0, 0, 0, .2);
+}
+.team-section .card:hover{
+    box-shadow: 0 0 17px rgba(0, 0, 0, .3);
+}
+.team-section .card a{
+    font-weight: bold;
+    transition: .5s;
+}
+.team-section .card a:hover{
+    background: #000;
+    color: #fff;
+}
+.team-section .card img {
+	width: 132px;
+	box-shadow: 0 0 17px rgba(0, 0, 0, .3);
+	margin-top: -81px;
+	margin-left: 8px;
+}
+.form-button a {
+	font-size: 24px;
+	font-weight: bold;
+	background: #6278df;
+	color: #fff;
+	text-decoration: none;
+	padding: 18px 28px;
+	border-radius: 7px;
+	border: 2px solid transparent;
+    transition: .5s;
+}
+.form-button a:hover{
+    background: #fff;
+    color: #6278df;
+    border: 2px solid rgb(98, 120, 223);
+    box-shadow: 0 0 20px rgb(98, 120, 223, .4) ;
+}
+.app-store a {
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+	border: 2px solid green;
+	padding: 15px 30px;
+	border-radius: 7px;
+	transition: .5s;
+}
+.app-store a:hover{
+	background: rgb(0, 128, 0);
+	color: #fff;
+	box-shadow: 0 0 10px rgba(0, 128, 0, .3) ;
+}
+.google-play a{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 15px 30px;
+	border-radius: 7px;
+	background: green;
+	box-shadow: 0 0 10px rgba(0, 128, 0, .3) ;
+	transition: .5s;
+}
+.google-play a:hover{
+	background: #000;
+	box-shadow: none;
+}
+
+.form{
+	width: 500px;
+	margin: auto;
+}
+
+
+/* Responsive css */
+
+@media (max-width:992px) {
+	.slider-caption h4 {
+		font-size: 22px;
+		margin-bottom: 21px;
+	}
+	.slider-caption h1 {
+		font-size: 36px;
+	}
+	.about-content {
+		margin-top:0;
+	}
+	.right-content h4 {
+		font-size: 17px;
+	}
+	.pricing-item h1 {
+		font-size: 25px;
+	}
+	.pricing-item ul li {
+		font-size: 16px;
+		margin-bottom: 7px;
+	}
+	.pricing-item ul li span {
+		font-size: 24px;
+		width: 32px;
+	}
+	.testimonial-content h1 {
+		font-size: 23px;
+	}
+	.histry-heading h1 {
+		font-size: 27px;
+	}
+	.history-item{
+		text-align: center;
+	}
+	.contact-item h1 {
+		font-size: 27px;
+	}
+	.search-text h1 {
+		font-size: 25px;
+	}
+	.footer-content h4 {
+		font-size: 17px;
+	}
+
+}
+@media (min-width:992px){
+	.right-content h4 {
+		font-size: 17px;
+	}
+}
+@media (max-width:768px) {
+	.slider-caption h4 {
+		font-size: 24px;
+		margin-bottom: 14px;
+	}
+	.slider-caption h1 {
+		font-size: 36px;
+		font-weight: bold;
+	}
+	.form {
+		width: 100%;
+	}
+	.about-content {
+		margin-top:0;
+	}
+	.about-content h1 {
+		font-size: 27px;
+	}
+	.about-content p {
+		font-size: 16px;
+	}
+	.about-content {
+		margin-top: 0;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.learn-more-heading h1 {
+		font-size: 30px;
+	}
+	.learn-more-heading p {
+		font-size: 20px;
+		margin-top: 13px;
+	}
+}
+@media (max-width:576px){
+	.slider-caption h4 {
+		font-size: 17px;
+		margin-bottom: 13px;
+	}
+	.slider-caption h1 {
+		font-size: 32px;
+		font-weight: bold;
+	}
+	.slider-section {
+	padding: 100px 0;
+	}
+	.about-content h1 {
+		font-size: 22px;
+	}
+	.learn-more-heading h1 {
+		font-size: 23px;
+	}
+	.learn-more-heading p {
+		font-size: 17px;
+		margin-top: 10px;
+	}
+	.contact-item h1 {
+		font-size: 20px;
+	}
+	.search-text h6 {
+		font-size: 16px;
+	}
+	.search-text h1 {
+		font-size: 18px;
+	}
+}
+@media (max-width:440px){
+	.learn-more-heading h1 {
+		font-size: 19px;
+	}
+	.learn-more-heading p {
+		font-size: 12px;
+	}
+	.contact-item h1 {
+		font-size: 18px;
+	}
+	.card-body h3 {
+		font-size: 19px;
+	}
+	.footer-content h4 {
+		font-size: 13px;
+	}
+	
+}
